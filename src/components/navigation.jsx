@@ -18,8 +18,8 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
+            <a className="navbar-brand page-scroll" href="#inicio">
+              CAM #8
             </a>{" "}
           </div>
 
@@ -28,45 +28,47 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-              <li>
+              {/* <li>
                 <a href="#features" className="page-scroll">
                   Features
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#about" className="page-scroll">
-                  About
+                <a href="#nosotros" className="page-scroll">
+                  ACERCA DE NOSOTROS
                 </a>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
-                  Services
+                <a href="#servicios" className="page-scroll">
+                  Servicios
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Gallery
+                  Galeria
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#team" className="page-scroll">
-                  Team
+                <a href="#categorias" className="page-scroll">
+                  Categorias
                 </a>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
-                  Contact
+                  Contacto
                 </a>
               </li>
+              
             </ul>
           </div>
         </div>
       </nav>
+      
     );
   }
 }

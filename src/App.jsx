@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
 import Header from './components/header';
-import Features from './components/features';
-import About from './components/about';
-import Services from './components/services';
+/* import Features from './components/features'; */
+import Nosotros from './components/nosotros';
+import Servicios from './components/servicios';
 import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Team from './components/Team';
+import Categorias from './components/Categorias';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 
@@ -27,12 +26,12 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
-        <Features data={this.state.landingPageData.Features} />
-        <About data={this.state.landingPageData.About} />
-        <Services data={this.state.landingPageData.Services} />
+       {/*  <Features data={this.state.landingPageData.Features} /> */}
+        <Nosotros data={this.state.landingPageData.Nosotros} />
+        <Servicios data={this.state.landingPageData.Servicios} />
         <Gallery />
-        <Testimonials data={this.state.landingPageData.Testimonials} />
-        <Team data={this.state.landingPageData.Team} />
+        
+        <Categorias data={this.state.landingPageData.Categorias} />
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )

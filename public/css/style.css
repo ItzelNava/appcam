@@ -186,7 +186,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/imginicio.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -239,20 +239,20 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-/* About Section */
-#about {
+/* nosotros Section */
+#nosotros {
 	padding: 100px 0;
 }
-#about h3 {
+#nosotros h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#about h2 {
+#nosotros h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-#about h2::after {
+#nosotros h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -261,13 +261,13 @@ header .intro-text {
 	bottom: 0;
 	left: 0;
 }
-#about .about-text li {
+#nosotros .nosotros-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 }
-#about .about-text li:before {
+#nosotros .nosotros-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
@@ -275,30 +275,30 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
-#about img {
+#nosotros img {
 	width: 520px;
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
-#about p {
+#nosotros p {
 	line-height: 24px;
 	margin: 30px 0;
 }
-/* Services Section */
-#services {
+/* Servicios Section */
+#servicios {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: #fff;
 }
-#services .service-desc {
+#servicios .service-desc {
 	margin: 10px 10px 20px;
 }
-#services h2 {
+#servicios h2 {
 	color: #fff;
 }
-#services .section-title h2::after {
+#servicios .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255,255,255,.3);
@@ -308,7 +308,7 @@ header .intro-text {
 	margin-left: -30px;
 	left: 50%;
 }
-#services i.fa {
+#servicios i.fa {
 	font-size: 42px;
 	width: 120px;
 	height: 120px;
@@ -318,15 +318,15 @@ header .intro-text {
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-#services h3 {
+#servicios h3 {
 	font-weight: 500;
 	padding: 5px 0;
 	color: #fff;
 }
-#services p {
+#servicios p {
 	color: rgba(255,255,255,.75);
 }
-#services .service-desc {
+#servicios .servicio-desc {
 	margin-bottom: 40px;
 }
 /* Portfolio Section */
@@ -574,7 +574,7 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
+#nosotros img {
 	margin: 50px 0;
 }
 }
