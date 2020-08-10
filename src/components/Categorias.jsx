@@ -14,7 +14,7 @@ export class Categorias extends Component {
             <br/>
              <ul>
             <li>
-            <a type="button" class="btn btn-primary btn-lg btn-block">Abecedario</a> 
+            <a  type="button" class="btn btn-primary btn-lg btn-block">Abecedario</a> 
             </li>
             <br/>
             <li>

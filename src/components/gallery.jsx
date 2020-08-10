@@ -22,9 +22,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
+                      
                       <img
                         src="img/portfolio/011.jpg"
                         className="img-responsive"
@@ -43,9 +41,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
+                     
                       <img
                         src="img/portfolio/021.jpg"
                         className="img-responsive"
@@ -64,9 +60,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
+                      
                       <img
                         src="img/portfolio/031.jpg"
                         className="img-responsive"
@@ -85,9 +79,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
+                    
                       <img
                         src="img/portfolio/041.jpg"
                         className="img-responsive"
@@ -106,9 +98,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
+                      
                       <img
                         src="img/portfolio/051.jpg"
                         className="img-responsive"
@@ -127,9 +117,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
+                      
                       <img
                         src="img/portfolio/061.jpg"
                         className="img-responsive"
@@ -148,9 +136,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
+                      
                       <img
                         src="img/portfolio/071.jpg"
                         className="img-responsive"
@@ -169,9 +155,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
+                     
                       <img
                         src="img/portfolio/081.png"
                         className="img-responsive"
@@ -190,9 +174,7 @@ export class Gallery extends Component {
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
-                      <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
+                      
                       <img
                         src="img/portfolio/091.jpg"
                         className="img-responsive"
