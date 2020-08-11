@@ -55,12 +55,17 @@ export class Navigation extends Component {
               </li> */}
               <li>
                 <a href="#categorias" className="page-scroll">
-                  Categorias
+                  LSM
                 </a>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
                   Contacto
+                </a>
+              </li>
+              <li>
+                <a  className="page-scroll">
+                  Login
                 </a>
               </li>
               
